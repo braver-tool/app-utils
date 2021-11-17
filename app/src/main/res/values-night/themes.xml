@@ -1,0 +1,24 @@
+<!--
+  ~ /*
+  ~  * Created by https://github.com/braver-tool on 16/11/21, 10:30 AM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 17/11/21, 03:10 PM
+  ~  */
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Apputils" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gery_100</item>
+        <item name="colorPrimaryVariant">@color/gery_200</item>
+        <item name="colorOnPrimary">@color/gery_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/gery_100</item>
+        <item name="colorSecondaryVariant">@color/gery_200</item>
+        <item name="colorOnSecondary">@color/gery_300</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
