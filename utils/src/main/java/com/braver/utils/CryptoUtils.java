@@ -39,6 +39,10 @@ import javax.crypto.KeyAgreement;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
+/**
+ * //For Encryption/Decryption/KeyGeneration
+ * implementation 'org.bouncycastle:bcprov-jdk16:1.45'
+ */
 public class CryptoUtils {
     private final static char[] HEX_ARRAY = "0123456789ABCDEF".toCharArray();
     public static final String ECDH_ALGORITHM = "ECDH";

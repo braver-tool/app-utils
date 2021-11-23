@@ -22,6 +22,12 @@ import io.socket.emitter.Emitter;
 
 
 /**
+ * In Gradle file :
+ * //For Socket.IO
+ * implementation('io.socket:socket.io-client:0.8.3') {
+ * exclude group: 'org.json', module: 'json'
+ * }
+ * In Code:
  * Step 1:
  * You can call #initSocket() method on your project's application class OnCreate delegate with your socket url
  * Step 2:
