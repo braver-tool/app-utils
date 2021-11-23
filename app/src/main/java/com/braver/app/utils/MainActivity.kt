@@ -2,7 +2,7 @@
  *
  *  * Created by https://github.com/braver-tool on 16/11/21, 10:30 AM
  *  * Copyright (c) 2021 . All rights reserved.
- *  * Last modified 17/11/21, 03:10 PM
+ *  * Last modified 23/11/21, 03:40 PM
  *
  */
 
@@ -19,15 +19,14 @@ import com.braver.utils.*
 import java.util.*
 
 class MainActivity : AppCompatActivity(), DialogUtils.OnDialogWidgetClick {
-    private lateinit var prefManager: PreferencesManager
+    private lateinit var prefUtils: PreferenceUtils
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        prefManager = PreferencesManager.getInstance(this@MainActivity)
+        prefUtils = PreferenceUtils.getInstance(this@MainActivity)
         usageOfUtils()
-
     }
 
     override fun onPositiveClick() {
@@ -101,7 +100,7 @@ class MainActivity : AppCompatActivity(), DialogUtils.OnDialogWidgetClick {
 
     private fun usageOfUtils() {
         //SharedPreferences
-        prefManager.setStringValue("DATA", "SAMPLE")
+        prefUtils.setStringValue("DATA", "SAMPLE")
         //Check Network Availability
         val isNetwork = AppUtils.isNetworkAvailable(this@MainActivity)
         Log.d("##", "isNetwork------->$isNetwork")
