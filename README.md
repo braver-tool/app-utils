@@ -27,13 +27,13 @@ buildscript {
 
 Then, Add this in your root `build.gradle` file (app level gradle file):
 
-  add implementation 'implementation 'com.github.braver-tool:app-utils:1.1.0' to your build.gradle dependencies block.
+  add implementation 'implementation 'com.github.braver-tool:app-utils:1.1.1' to your build.gradle dependencies block.
 
   for example:
 
   ```
   dependencies {
-    implementation 'com.github.braver-tool:app-utils:1.1.0'
+    implementation 'com.github.braver-tool:app-utils:1.1.1'
   }
   ```
 
