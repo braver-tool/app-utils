@@ -33,7 +33,7 @@ Then, Add this in your root `build.gradle` file (app level gradle file):
 
   ```
   dependencies {
-    implementation 'com.github.braver-tool:app-utils:1.0.0'
+    implementation 'com.github.braver-tool:app-utils:1.1.0'
   }
   ```
 
